@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0px 80px;
+  max-width: 1500px;
+  padding: 5px;
+}
+
+nav {
+  background-color: rgb(155, 155, 155);
+  position: fixed;
+  width: 100%;
+}
+nav .navbar .blok1 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+nav .navbar .blok1 .icone {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  gap: 20px;
+}
+nav .navbar .blok1 .icone .gap1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+nav .navbar .blok1 .icone .gap1 i {
+  font-size: 12px;
+}
+nav .navbar .blok1 .icone .gap2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+nav .navbar .blok1 .icone .gap2 p {
+  font-size: 12px;
+}
+nav .navbar .blok1 .home {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgb(233, 224, 224);
+  font-size: 15px;
+}
+nav .navbar .blok1 .home .class {
+  color: white;
+}
+nav .navbar .blok1 .home #boxen {
+  display: none;
+  color: white;
+}
+nav .navbar .blok1 .home .list {
+  display: flex;
+  justify-content: space-between;
+}
+nav .navbar .blok1 .home ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  gap: 20px;
+  color: white;
+}
+nav .navbar .blok1 .home ul i {
+  margin-left: 5px;
+  font-size: 15px;
+}
+
+#box {
+  background-color: rgb(121, 119, 119);
+  width: 100%;
+}
+
+.blok {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.blok .text p {
+  color: white;
+  font-size: 20px;
+}
+.blok .text h4 {
+  color: white;
+  font-size: 50px;
+  padding: 20px 0px 20px 0px;
+}
+.blok .btn .button {
+  padding: 15px;
+  width: 200px;
+  background-color: rgb(196, 196, 67);
+  border: none;
+  color: white;
+}
+.blok .btn .button:hover {
+  background-color: black;
+  border: 2px solid rgb(189, 189, 165);
+  color: yellow;
+  transition: all 0.3s ease;
+}
+
+#id {
+  background-color: black;
+  width: 100%;
+}
+
+@media screen and (max-width: 721px) {
+  nav .navbar .blok1 .home .list {
+    display: none;
+  }
+}
+@media screen and (max-width: 721px) {
+  nav .container .navbar .blok1 #boxen {
+    display: block;
+  }
+}/*# sourceMappingURL=main.css.map */
