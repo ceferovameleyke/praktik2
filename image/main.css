@@ -145,31 +145,24 @@ nav .navbar .blok1 .home ul i {
   justify-content: space-between;
   align-items: center;
 }
-.bottom1 .map2 > div {
-  padding: 20px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-.bottom1 .map2 > div:hover {
-  background-color: rgb(233, 212, 28);
-}
 .bottom1 .map2 .main1 {
   height: 350px;
   width: 300px;
+  background-color: rgb(233, 231, 233);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 .bottom1 .map2 .main1 .class1 {
-  width: 100%;
-}
-.bottom1 .map2 .main1 .class1 img {
-  width: 100%;
+  height: 160px;
+  width: 270px;
+  background-color: white;
 }
 .bottom1 .map2 .main1 .class2 {
   height: 160px;
   width: 270px;
+  background-color: white;
 }
 .bottom1 .map2 .main1 .class2 h4 {
   font-size: 20px;
@@ -181,20 +174,21 @@ nav .navbar .blok1 .home ul i {
 .bottom1 .map2 .main2 {
   height: 350px;
   width: 300px;
+  background-color: rgb(233, 231, 233);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 .bottom1 .map2 .main2 .class1 {
-  width: 100%;
-}
-.bottom1 .map2 .main2 .class1 img {
-  width: 100%;
+  height: 160px;
+  width: 270px;
+  background-color: white;
 }
 .bottom1 .map2 .main2 .class2 {
   height: 160px;
   width: 270px;
+  background-color: white;
 }
 .bottom1 .map2 .main2 .class2 h4 {
   font-size: 20px;
@@ -206,20 +200,21 @@ nav .navbar .blok1 .home ul i {
 .bottom1 .map2 .main3 {
   height: 350px;
   width: 300px;
+  background-color: rgb(233, 231, 233);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 .bottom1 .map2 .main3 .class1 {
-  width: 100%;
-}
-.bottom1 .map2 .main3 .class1 img {
-  width: 100%;
+  height: 160px;
+  width: 270px;
+  background-color: white;
 }
 .bottom1 .map2 .main3 .class2 {
   height: 160px;
   width: 270px;
+  background-color: white;
 }
 .bottom1 .map2 .main3 .class2 h4 {
   font-size: 20px;
@@ -229,70 +224,13 @@ nav .navbar .blok1 .home ul i {
   margin-top: 20px;
 }
 
-#box1 {
-  width: 100%;
-  background-color: white;
-}
-
-.last {
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.last .lasted1 {
-  width: 100%;
-  padding: 50px;
-  background-color: rgb(255, 243, 248);
-  text-align: center;
-}
-.last .lasted1 h3 {
-  font-size: 30px;
-}
-.last .lasted1 p {
-  font-size: 16px;
-  color: rgb(126, 125, 125);
-}
-.last .lasted2 {
-  width: 100%;
-  padding: 20px;
-  background-color: rgb(250, 249, 249);
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-.last .lasted2 .meta1 {
-  width: 250px;
-  height: 400px;
-  background-color: white;
-}
-.last .lasted2 .meta2 {
-  width: 250px;
-  height: 400px;
-  background-color: white;
-}
-.last .lasted2 .meta3 {
-  width: 250px;
-  height: 400px;
-  background-color: white;
-}
-.last .lasted2 .meta4 {
-  width: 250px;
-  height: 400px;
-  background-color: white;
-}
-
-@media screen and (max-width: 921px) {
+@media screen and (max-width: 721px) {
   nav .navbar .blok1 .home .list {
     display: none;
   }
 }
-@media screen and (max-width: 921px) {
+@media screen and (max-width: 721px) {
   nav .container .navbar .blok1 #boxen {
     display: block;
-  }
-  #id .bottom1 .map2 {
-    flex-direction: column;
   }
 }/*# sourceMappingURL=main.css.map */
